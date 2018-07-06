@@ -1,0 +1,365 @@
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/AvenirLTStd-Book.otf);
+}
+.video-container{
+	padding-top:70px;
+}
+.nav-brand img,.footer img{
+	height: 40px;
+}
+.description-text{
+	padding:6em;
+}
+.btn-primary{
+	background-color:#213EA2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: bold;
+	padding: 10px 15px;
+	border:0;
+}
+.navbar.static-top{
+	padding:15px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.mainbanner img{
+	width: 100%;
+}
+p{
+    font-family: 'Avenir', sans-serif;
+    color: #4A4A4A;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #4A4A4A;
+    margin: 0;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #4A4A4A;
+    margin: 15px 0;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.easy-steps{
+	padding:6em 0;
+}
+.easy-steps p, .our-products p,.register-form p{
+	margin:10px 0;
+}
+.steps img{
+	margin:30px 0;
+}
+.business-loan-container, .personal-loan-container{
+	width: 500px;
+	height: 300px;
+	margin: 50px auto;
+	padding: 0 20px;
+}
+.business-loan-container p, .personal-loan-container p{
+	color: #FFFFFF;
+}
+.personal-loan-container{
+	background-image:url(../img/banners/personalloan.png);
+
+}
+.business-loan-container{
+	background-image:url(../img/banners/businessloan.png); 
+}
+.our-products .btn-primary{
+	margin: 20px 0;
+}
+.our-products h3{
+	padding-top:2em;
+}
+.footer{
+	padding: 2em 0;
+}
+.footer img{
+	margin: 20px 0;
+}
+.footer h4{
+	font-size:16px;
+	color: #9B9B9B;
+	font-weight: bold;
+	font-family: 'Avenir', sans-serif;
+	margin: 0;
+}
+.footer strong{
+	font-family: 'Avenir', sans-serif;
+	color: #9B9B9B;
+}
+.footer p,.footer small{
+	color: #9B9B9B;
+}
+.footer small{
+	font-size:16px;
+}
+.social-icon img{
+	width: 57px;
+	height: 57px;
+}
+.social-icon .icon-hover{
+	display:none;
+	position:absolute;
+	top:0;
+	z-index:99;
+	left:0;
+}
+.social-icon a:hover > .icon-hover {
+	display: inline ;
+}
+.facebook-container ,.insta-container, .whatsapp-container{
+	position: relative;
+}
+.text-lg-right p{
+	margin: 0;
+}
+.customer-careline{
+	background: linear-gradient(to left,#253E80, #101D49);
+	border-bottom: 15px solid #EC1A3B;
+}
+.customer-careline h2,.customer-careline p{
+	color: #fff;
+	font-family: 'Avenir', sans-serif;
+	font-size: 24px;
+	margin: 0;
+}
+.customer-careline p{
+	margin-left: 66px;
+	margin-bottom: 15px;
+}
+.customer-careline h2{
+	font-weight: bold;
+}
+.contact-container{
+	padding: 40px 0;
+}
+.customer-service::before {
+	content: url('../img/icons/customerservice.png');
+	padding: 0 20px;
+}
+.direct-line::before {
+	content: url('../img/icons/directline.png');
+	padding: 0 20px;
+}
+.register-form-container{
+	position: relative;
+	margin: 0 auto;
+	max-width: 768px;
+	width: 100%;
+	padding: 70px 0px;
+	text-align:left;
+}
+.result-btn{
+	padding-top:50px;
+}
+.result-btn a{
+	margin:0 auto;
+}
+.btn-light{
+	padding: 13px 37px;
+	border: 1px solid #C7C7C7;	
+	border-radius: 5px;
+	color:#A2A2A2;
+	background-color: #ffffff;
+}
+.btn-light:hover ,.btn-light:focus ,.btn-light:not(:disabled):not(.disabled):active{
+	background:none;
+}
+.btn-light.active{
+	background-color:#213EA2 !important;
+	color: #ffffff !important;
+}
+select, input{
+	height: 50px !important;
+	padding:13px 20px;
+	color:#4A4A4A !important;
+}
+#year, #month{
+	width:150px;
+	float: left;
+}
+#year{
+	margin-right: 1em;
+}
+.signup-form, .signup-description{
+	width:50%;
+	float:left;
+}
+.modal-body{
+	padding:60px 80px;
+}
+.signup-description h1{
+	color: #101D49;
+	font-size:60px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	margin:40px 0;
+}
+.signup-form h2{
+	color: #101D49;
+	font-family: 'Roboto', sans-serif;
+	font-size:36px;
+	font-weight: bold;
+}
+.signup-description p,.signup-form p{
+   color:#101D49;
+   font-family: 'Roboto', sans-serif;
+}
+.connect__context span{
+	font-family: 'Roboto', sans-serif;
+	padding: 0 20px;
+	font-weight: bold;
+}
+.modal-dialog{
+	max-width: 1024px;
+}
+.red{
+	color:red;
+}
+.signup-form{
+	padding:0 0 0 100px;
+}
+.connect.facebook {
+    background: #3B5998;
+    color: #FFF;
+    margin-bottom:10px;
+}
+.connect.googleplus{
+    background: #F44336;
+    color: #FFF;
+}
+.connect {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.connect.facebook .connect__icon {
+    background: #283d68;
+}
+.connect.googleplus .connect__icon {
+    background: #C53126;
+}
+.connect__icon {
+    vertical-align: middle;
+    float: left;
+    width: 52px;
+    text-align: center;
+}
+.signup-form a:hover{
+	text-decoration: none;
+}
+.line:before {
+     content: ' ';
+     position: absolute;
+     top: 50%;
+     left: 0px;
+     right: 0px;
+     height: 1px;
+     background-color: #E7E7E7;    
+}
+div.hr{
+	position: relative;
+	display: flex;
+	margin: 40px 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	color:#929699;
+}
+div.hr div:first-child{
+	margin-right: 20px;
+	flex: 1;
+	position: relative;
+}
+div.hr div:last-child {
+    margin-left: 20px;
+    flex: 1;
+	position: relative;
+}
+#name ,#email{
+	margin-bottom: 20px;
+}
+.signup-form .btn{
+	width:100%;
+}
+.signup-description img{
+	height: 40px;
+}
+.detail-info{
+	font-family: 'Roboto', sans-serif; 
+	text-align: left;
+	position: relative;
+	display: table;
+	margin:0 auto;
+}
+.detail-info h1{
+	text-align: center;
+}
+.txt-blue{
+	font-size: 14px;
+	color:#213EA2;
+}
+.info{
+	color:#4A4A4A;
+	font-size:16px;
+	font-weight: bold;
+}
+.result{
+	float:left;
+	padding:40px 20px;
+}
+.thank-info .btn{
+	margin: 3em 0;
+}
+.loan-calculator-container{
+	background:linear-gradient(to left,#5BE6EE,#8072FF);
+	width: 600px;
+	height: 440px;
+	border-radius: 5px;
+	margin: 30px auto;
+	padding:30px;
+	color:#ffffff;
+}
+.loan-calculator-container h1,.loan-calculator-container p{
+	color:#ffffff;
+}
+.loan-calculator-container strong{
+	font-weight: bold;
+	font-size:36px;
+}
+#ex1Slider .slider-selection {
+	background: #60FFC2;
+}
+.slider-handle{
+ 	background: #ffffff;
+ 	box-shadow: 0 -2px 4px 0 rgba(140,140,140,0.2), 0 2px 4px 0 rgba(140,140,140,0.3);
+}
+.slider.slider-horizontal{
+	width:460px;
+}
+@media only screen and (max-width: 576px) {
+    .business-loan-container, .personal-loan-container{
+          width:100%;
+    }
+    .customer-careline .row{
+    	margin:0;
+    }
+
+ }
